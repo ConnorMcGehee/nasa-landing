@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 850px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.wordmark {
+    position: absolute;
+    color:white;
+    font-size: 80px;
+  }
+
+.info {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+#message {
+    height: 50px;
+}
+
+.infotext {
+    color: #3a3b3c;
+}
